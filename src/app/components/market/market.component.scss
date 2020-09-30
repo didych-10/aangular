@@ -1,0 +1,31 @@
+
+.market-item{
+  width: 30%;
+  height: 250px;
+  border: .5px solid gray;
+  border-radius: 10px;
+
+  margin-top: 50px;
+  margin-left: 10px;
+  display: flex;
+  background: rgb(29,30,34);
+  background: radial-gradient(circle, rgba(29,30,34,1) 0%, rgba(11,11,11,1) 100%);
+  color: white;
+  &:hover{
+    transform: scale(1.1);
+    transition: .5s;
+  }
+}
+.main {
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  width: 60%;
+}
+.red{
+  border: 1px solid red;
+}
+.none{
+  border: .5px solid gray;
+}
+
