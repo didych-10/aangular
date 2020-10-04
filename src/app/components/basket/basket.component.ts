@@ -31,5 +31,6 @@ removeItem(i: number) {
   name: string;
   price: number;
   onSale?: boolean;
+  url: string;
 
 }

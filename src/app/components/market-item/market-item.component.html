@@ -1,12 +1,10 @@
-<div class="head">
+<div (click)="buyProduct(product);" class="head">
 
-  <span>Name: {{product.name}}</span>
-  <br>
-  <br>
-  <span>Price: {{product.price}}$</span>
+
+  <div><img style="max-width: 300px; max-height: 160px;" src="{{product.url}}" alt="item"></div>
+  <span>{{product.name}}</span>
+  <span style="color: #6d93d4">{{product.price}}$</span>
   <span *ngIf="product.onSale">SALE</span>
   <br>
   <span *ngIf="count>0">Count: {{count}}</span>
-
-<button (click)="buyProduct(product);" class="buy">Buy</button>
 </div>

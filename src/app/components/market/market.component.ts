@@ -11,56 +11,52 @@ export class MarketComponent implements OnInit {
   {
     name: 'Iphone 7',
     price: 400,
-    onSale: true
+    onSale: true,
+      url: 'https://jabko.ua/image/cache/catalog/products/2020/05/301856/677-700x700.jpg'
   },
   {
     name: 'Iphone X',
-    price: 550
+    price: 550,
+      url: 'https://jabko.ua/image/cache/catalog/files_com/jabko_black/iphone/iphone-x/x-space-420x420.jpg'
   },
   {
     name: 'Apple watch',
     price: 475,
-    onSale: true
+    onSale: true,
+      url: 'https://jabko.ua/image/cache/catalog/files_com/jabko_black/watch/40-sl-700x700.jpg'
   },
-  {
-    name: 'Samsung galaxy A10',
-    price: 500
-  },
-   {
+
+     {
      name: 'Mackbook Pro',
-     price: 1000
+     price: 1000,
+         url: 'https://jabko.ua/image/cache/catalog/files_com/jabko_black/macbook/pro-13-space-black-420x420.jpg'
    },
    {
      name: 'Iphone SE 2020',
-     price: 400
-   },
-   {
-     name: 'Iphone 11',
-     price: 760
+     price: 400,
+       url: 'https://jabko.ua/image/cache/catalog/files_com/jabko_black/iphone/iphone-se/se-black-700x700.png'
    },
    {
      name: 'IMac pro',
-     price: 3000
+     price: 3000,
+       url: 'https://jabko.ua/image/cache/catalog/products/2020/08/041912/imac-2020%20(1)-420x420.jpg'
    },
+
    {
-     name: 'Huawei P Smart',
-     price: 350
-   },
-   {
-     name: 'Apple Box',
-     price: 300
+     name: 'Apple TV',
+     price: 300,
+       url: 'https://jabko.ua/image/cache/catalog/products/2020/05/251132/226-420x420.jpg'
+
    },
    {
      name: 'Apple AirPods',
-     price: 135
+     price: 135,
+       url: 'https://jabko.ua/image/cache/catalog/files_com/jabko_black/gadj/airpods/mrjx2dass-420x420.jpg'
    },
    {
      name: 'Apple AirPods Pro',
-     price: 250
-   },
-   {
-     name: 'JBL Xtreme',
-     price: 235
+     price: 250,
+       url: 'https://jabko.ua/image/cache/catalog/files_com/jabko_black/gadj/airpods/airpods-pro-700x700.jpg'
    }
 
   ];
